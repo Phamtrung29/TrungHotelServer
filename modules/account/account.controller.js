@@ -40,7 +40,7 @@ const register = async (req, res) => {
       const data = {
         Email,
         html,
-        subject: "Hoàn tất đăng ký tài khoản AnhOct Hotel",
+        subject: "Hoàn tất đăng ký tài khoản Trung Hotel",
       };
 
       const rs = await sendMail(data);
